@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1> java script arrays</h1>
+<p> list of items inn the array</p>
+<p id="demo" > </p>
+<script>
+const fruits= ["apple" ,"orange", 'pinepple',"kiwi"];
+let fLen=fruits.length;
+
+let text= "<ul>"
+for (let i=0; i < fLen; i++){
+text += "<li>" + fruits[i] + "</li>";
+
+}
+text += "</ul>";
+
+document.getElementById("demo").innerHTML= text;
+</script>
+</body>
+</html>

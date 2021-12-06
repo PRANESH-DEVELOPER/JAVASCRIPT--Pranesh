@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1> cars array</h1>
+<p id="demo"> </p>
+<script>
+const cars =["audi", "bmw", "honda", "city"];
+let cLen=cars.length;
+
+let text="<ol type=i>";
+for (let i=0; i<cLen; i++){
+text += "<li>" + cars[i] + "</li>";
+}
+text += "</ol>"
+
+ document.getElementById("demo").innerHTML= text;
+</script>
+</body>
+</html>
